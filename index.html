@@ -3,9 +3,71 @@
     <head>
         <title>T3K's Corner</title>
         <style>
-        	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat');
 	body {font-family: 'Montserrat', sans-serif;}
-    h1 {
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;;
+	    background-image: url("/star.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #000;}
+
+ul.topnav li a.active {background-color: #0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+/* Style the content */
+.content {
+    background-color: rgb(213,216,216);
+    padding: 10px;
+ 
+}
+
+.womp {
+    background-color: #c9c9c9;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+	h1 {
   font-weight: normal ;
   font-size: 64px;
 }
@@ -18,11 +80,22 @@ h3{
   font-weight: normal
   font-size: 36px;
 }
+	
+	radio {
+  background-color: lightgrey;
+  width: auto;
+  border: 4px solid darkgrey;
+  padding: 25px;
+  margin: 25px;
+}
 </style>
     </head>
     <body>
 <div align="center">
-    <h1><p>Woop!</p></h1>
+    <h1><p>T3K's Tech Corner</p></h1>
+<div class="content">
+    <h3><p>Welcome to my little corner of the Internet. This is a page dedicated to mainly Technical blogging and other technical stuff.</p></h3>
+</div>
 </div>
     </body>
 </html>

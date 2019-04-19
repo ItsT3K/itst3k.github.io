@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {font-family: 'Montserrat', sans-serif;}
+
+* {
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;;
+}
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;;
+background-color:rgb(10,10,10)
+
+}
+
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #000;}
+
+ul.topnav li a.active {background-color: #0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+ul.topnav li.right, 
+ul.topnav li {float: none;}
+}
+
+/* Style the content */
+.content {
+background-color: rgb(37, 37, 37);
+padding: 10px;
+
+}
+
+.womp {
+background-color: rgb(20,20,20);
+padding: 10px;
+}
+
+.footer {
+background-color: rgb(37,37,37);
+padding: 10px;
+}
+h1 {
+font-weight: normal ;
+font-size: 64px;
+color:rgb(250,250,225);
+}
+
+h2 {
+font-weight: lighter
+font-size: 24px;
+color:rgb(250,250,225);
+}
+h3{
+font-weight: lighter
+font-size: 32px;
+color:rgb(250,250,225);
+}
+p{
+color:rgb(250,250,225);
+}
+
+radio {
+background-color: lightgrey;
+width: auto;
+border: 4px solid darkgrey;
+padding: 25px;
+margin: 25px;
+}

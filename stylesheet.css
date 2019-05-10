@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-body {font-family: 'Montserrat', sans-serif;}
 
 * {
 box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;;
 }
 
 body {
 margin: 0;
-font-family: 'Montserrat', sans-serif;;
-background-color:rgb(10,10,10)
+background-color:antiquewhite
 
 }
 
@@ -45,18 +41,18 @@ ul.topnav li {float: none;}
 
 /* Style the content */
 .content {
-background-color: rgb(37, 37, 37);
+background-color:lightblue;
 padding: 10px;
 
 }
 
 .womp {
-background-color: rgb(20,20,20);
+background-color:lightblue;
 padding: 10px;
 }
 
 .footer {
-background-color: rgb(37,37,37);
+background-color:lightcyan;
 padding: 10px;
 }
 h1 {

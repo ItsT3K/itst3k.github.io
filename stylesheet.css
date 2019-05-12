@@ -41,18 +41,18 @@ ul.topnav li {float: none;}
 
 /* Style the content */
 .content {
-background-color:lightcyan;
+background-color:lightgray;
 padding: 10px;
 
 }
 
 .womp {
-background-color:lightcyan;
+background-color:lightgray;
 padding: 10px;
 }
 
 .footer {
-background-color:lightcyan;
+background-color:lightgray;
 padding: 10px;
 }
 h1 {

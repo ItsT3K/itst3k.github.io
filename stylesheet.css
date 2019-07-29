@@ -43,9 +43,9 @@ ul.topnav li {float: none;}
 /* Style the content */
 .content {
     max-width: 300px
-background-color:lightgray;
-padding: 10px;
-
+ 
+    padding: 10px;
+   background-color:lightgray;
 }
 
 .womp {

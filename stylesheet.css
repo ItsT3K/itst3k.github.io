@@ -42,12 +42,17 @@ ul.topnav li {float: none;}
 
 /* Style the content */
 .content {
-    max-width: 300px
- 
-    padding: 10px;
-   background-color:lightgray;
-}
-
+        border: 2px solid #fff;
+        color: #fff;
+        background: #222;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 500px;
+        height: 300px;
+    }
 .womp {
 background-color:lightgray;
 padding: 10px;

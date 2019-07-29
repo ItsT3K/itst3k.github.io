@@ -1,5 +1,6 @@
 /*CSS Stylesheet for itst3k.github.io*/
 /*Some of this stuff can be found at W3Schools and stuff. Just resources people can use for starters*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 * {
 box-sizing: border-box;
 }
@@ -44,13 +45,13 @@ ul.topnav li {float: none;}
 .content {
         border: 2px solid #fff;
         color: #fff;
-        background: #aaaaaa ;
+        background: #cccccc ;
         position: center
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 500px;
+        width: 800px;
         height: fixed;
     }
 .womp {
@@ -63,22 +64,26 @@ background-color:lightgray;
 padding: 10px;
 }
 h1 {
+    font-family: 'Raleway', sans-serif;
 font-weight: normal ;
 font-size: 64px;
 color:black;
 }
 
 h2 {
+    font-family: 'Raleway', sans-serif;
 font-weight: lighter
 font-size: 24px;
 color:black;
 }
 h3{
+    font-family: 'Raleway', sans-serif;
 font-weight: lighter
 font-size: 32px;
 color:black;
 }
 p{
+    font-family: 'Raleway', sans-serif;
 color:black;
 }
 

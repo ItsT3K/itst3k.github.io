@@ -51,7 +51,7 @@ ul.topnav li {float: none;}
         left: 0;
         right: 0;
         width: 500px;
-        height: 300px;
+        height: fixed;
     }
 .womp {
 background-color:lightgray;

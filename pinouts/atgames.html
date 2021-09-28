@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>AtGames Pinouts</title>
+	</head>
+		<body>
+			<pre>
+AtGames Atari 2600 Flashback Controller IC
+ItsT3K, 2021/09/23
+
+1. The MCU
+       ____________
+  TX? |1         10| ???
+  ??? |            | ???
+  UP1 |            | LEFT1
+DOWN1 |            | RIGHT1
+  VCC |            | ???
+ MENU |            | ???
+   A1 |            | ???
+  SEL |            | ???
+START |9_________18| ???
+  
+The current MCU used is unknown. But it's assumed
+most of the pins on the right side of the chip are
+GND as they don't seem to (from a surface examination)
+have traces going to them
+
+The MCU's job is to take the input from the joystick
+and convert it to data to be sent out through the IR
+blaster that gets sent to the main console
+
+2. The IR Layout
+
+	  [IR]
+	  |  |VCC
+	  |
+	[100]
+	  |
+	  [HY1D] (GS8050M)
+	  |    |VCC
+	[102]
+	|
+	TX?
+	
+3. Misc
+
+Connector from the power/selection board to the main board
+VCC SW1 MENU SEL START
+
+VCC - 3.3V (2 x AAA Batteries)
+SW1 - Power Switch
+MENU - Reset Button
+SEL - Game Select Button
+START - Game Start Button
+	 
+More info will be put here as more info becomes availible
+</pre>
+</body>
+</html>

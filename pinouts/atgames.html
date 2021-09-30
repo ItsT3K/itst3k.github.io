@@ -30,34 +30,34 @@ text viewer/Terminal please resize your window to something like 88x24 or bigger
 	The MCU currently is unknown, But it is assumed to be a Microchip PIC16F87/88 MCU
 due to the similarities in form factor and pin layout. 
 
-		 ____________
+             ____________
 	TX? |1         18| ???
 	??? |            | ???
 	UP1 |            | LEFT1
-  DOWN1 |            | RIGHT1
-    VCC |            | ???
-   MENU |            | ???
-     A1 |            | ???
+      DOWN1 |            | RIGHT1
+        VCC |            | ???
+       MENU |            | ???
+         A1 |            | ???
 	SEL |            | ???
-  START |9_________10| ???
+      START |9_________10| ???
   
  The form factor of the chip is a 18-pin PDIP SOIC. So what do these pins match 
 with the PIC16F87/88.
 
-		 ____________
+             ____________
 	RA2 |1         10| RA1
 	RA3 |            | RA0
 	RA4 |            | RA7
-    RA5 |            | RA6
-    VCC |            | Vdd
-    RB0 |            | RB7
-    RB1 |            | RB6
+        RA5 |            | RA6
+        VCC |            | Vdd
+        RB0 |            | RB7
+        RB1 |            | RB6
 	RB2 |            | RB5
-    RB3 |9_________18| RB4
+        RB3 |9_________18| RB4
 	
 	=======================================================
 	| RA/RB	| The RA/RB pins are Bidirectional I/O pins.  |
-	|		| RA5 however is a Input pin.                 |
+	|	| RA5 however is a Input pin.                 |
 	=======================================================
 	|Vcc/Vdd| This is the power input pins for the chip   |
 	=======================================================
